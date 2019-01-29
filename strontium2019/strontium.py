@@ -73,6 +73,7 @@ def solution(words):
     return result
 
 
+
 print(solution(["aabb", "aaaa", "bbab"]))
 print(solution(["xxbxx", "xbx", "x"]))
 print(solution(["dd", "bb", "cc", "dd"]))
