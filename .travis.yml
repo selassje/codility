@@ -1,5 +1,6 @@
-  language: python
-  python:
-    - "3.7"
-  script:
-    - strontium2019/strontium.py
+language: python
+python: 3.7
+dist: xenial
+sudo: true
+script:
+ - strontium2019/strontium.py
