@@ -2,4 +2,4 @@
   python:
     - "3.6"
   script:
-    - strontium2019/strontium22.py
+    - strontium2019/strontium.py
