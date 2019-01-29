@@ -2,12 +2,12 @@ dist: trusty
 sudo: true
 matrix:
     include:
-        - language: python
+        language: python
         python: 3.7
         script:
             - python strontium2019/strontium.py
             
-        - language: cpp
+        language: cpp
         compiler: gcc
         addons:
             apt:
