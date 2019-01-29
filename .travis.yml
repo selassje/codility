@@ -1,15 +1,14 @@
+dist: trusty
+sudo: true
 matrix:
     include:
-        language: python
+        - language: python
         python: 3.7
-        dist: xenial
-        sudo: true
         script:
             - python strontium2019/strontium.py
             
-        language: cpp
+        - language: cpp
         compiler: gcc
-        dist: trusty
         addons:
             apt:
                 sources:
