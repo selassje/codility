@@ -9,6 +9,7 @@ matrix:
             
         language: cpp
         compiler: gcc
+        dist: trusty
         addons:
             apt:
                 sources:
