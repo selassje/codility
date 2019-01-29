@@ -1,5 +1,13 @@
 dist: trusty
 sudo: true
+addons:
+    apt:
+        sources:
+            - ubuntu-toolchain-r-test
+        packages:
+            - gcc-6
+            - g++-6
+            - cmake
 matrix:
     include:
         - language: python
@@ -9,14 +17,6 @@ matrix:
             
         - language: cpp
           compiler: gcc
-          addons:
-            apt:
-                sources:
-                    - ubuntu-toolchain-r-test
-                packages:
-                    - gcc-6
-                    - g++-6
-                    - cmake
           script:
             - export CC=/usr/bin/gcc-6
             - export CXX=/usr/bin/g++-6
