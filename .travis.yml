@@ -3,13 +3,13 @@ sudo: true
 matrix:
     include:
         -language: python
-        python: 3.7
-        script:
+         python: 3.7
+         script:
             - python strontium2019/strontium.py
             
         -language: cpp
-        compiler: gcc
-        addons:
+         compiler: gcc
+         addons:
             apt:
                 sources:
                     - ubuntu-toolchain-r-test
@@ -17,7 +17,7 @@ matrix:
                     - gcc-6
                     - g++-6
                     - cmake
-        script:
+         script:
             - export CC=/usr/bin/gcc-6
             - export CXX=/usr/bin/g++-6
             - gcc -v && g++ -v && cmake --version
