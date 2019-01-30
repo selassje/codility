@@ -123,61 +123,62 @@ QuadNode* QuadNode::insertPoint(Point newPoint)
 
 unsigned int QuadNode::getDistance(Point a, Point b)
 {
-    int xD = abs(a.x - b.x);
-    int yD = abs(a.y - b.y);
-    unsigned int d = std::max(xD / 2, yD / 2);
+    unsigned xD = static_cast<unsigned>(abs(a.x - b.x));
+    unsigned yD = static_cast<unsigned>(abs(a.y - b.y));
+    unsigned d = std::max(xD / 2, yD / 2);
     return d;
 }
 
-unsigned int QuadNode::getSquareSize()
+unsigned QuadNode::getSquareSize()
 {
-    int sqareSize = square.topRight.x - square.bottomLeft.x;
+    unsigned sqareSize = static_cast<unsigned>(square.topRight.x - square.bottomLeft.x);
     return sqareSize;
 }
 
 Point QuadNode::getCenter()
 {
-    int cX = square.bottomLeft.x + getSquareSize() / 2;
-    int cY = square.bottomLeft.y + getSquareSize() / 2;
+    int halfSquare = static_cast<int>(getSquareSize()) / 2;
+    int cX = square.bottomLeft.x + halfSquare;
+    int cY = square.bottomLeft.y + halfSquare;
     return { cX,cY };
 }
 
 Square QuadNode::getNewSquare(Dir dir)
 {
-    Square square;
+    Square newSquare;
     Point center = getCenter();
-    int newSize = (int) std::ceil(getSquareSize() / 2.0);
+    int newSize = static_cast<int>(std::ceil(getSquareSize() / 2.0));
     switch (dir)
     {
     case QuadNode::NE:
-        square.bottomLeft = center;
-        square.topRight = { center.x + newSize,center.y + newSize };
+        newSquare.bottomLeft = center;
+        newSquare.topRight = { center.x + newSize,center.y + newSize };
         break;
     case QuadNode::SE:
-        square.bottomLeft = { center.x,center.y - newSize };
-        square.topRight =   { center.x + newSize,center.y };
+        newSquare.bottomLeft = { center.x,center.y - newSize };
+        newSquare.topRight =   { center.x + newSize,center.y };
         break;
     case QuadNode::SW:
-        square.bottomLeft = { center.x - newSize ,center.y - newSize };
-        square.topRight = center;
+        newSquare.bottomLeft = { center.x - newSize ,center.y - newSize };
+        newSquare.topRight = center;
         break;
     case QuadNode::NW:
-        square.bottomLeft = { center.x - newSize,center.y};
-        square.topRight = { center.x,center.y + newSize };
+        newSquare.bottomLeft = { center.x - newSize,center.y};
+        newSquare.topRight = { center.x,center.y + newSize };
         break;
     case QuadNode::NONE:
         break;
     default:
         break;
     }
-    return square;
+    return newSquare;
 }
 
 unsigned int QuadNode::getDistanceToSquare(const Point p)
 {
     int dx = std::max(std::max(square.bottomLeft.x - p.x, 0), p.x - square.topRight.x);
     int dy = std::max(std::max(square.bottomLeft.y - p.y, 0), p.y - square.topRight.y);
-    return   abs(dx) / 2 + abs(dy) / 2;
+    return   static_cast<unsigned>(abs(dx)) / 2 + static_cast<unsigned>(abs(dy)) / 2;
 }
 
 QuadTree::QuadTree(Point point, int squareSize)
@@ -196,7 +197,6 @@ void QuadTree::insertPoint(Point newPoint)
 
 Point QuadTree::findClosestPoint(Point p)  noexcept
 {
-    auto PlusInf = std::numeric_limits<int>::max();
     auto closestPoint = _nodeMap[p]->findClosest(p, PlusInf, { PlusInf,PlusInf },nullptr);
     return closestPoint;
 }
@@ -239,7 +239,7 @@ Point QuadNode::findClosest(const Point targetPoint, unsigned int bestDistance, 
 }
 
 
-int solution(vector<int> &X, vector<int> &Y) 
+unsigned solution(vector<int> &X, vector<int> &Y) 
 {
     int maxX = *max_element(X.begin(), X.end());
     int maxY = *max_element(Y.begin(), Y.end());
@@ -253,7 +253,7 @@ int solution(vector<int> &X, vector<int> &Y)
         Point point = { X[i],Y[i] };
         quadTree.insertPoint(point);
     }
-    unsigned int result = PlusInf;
+    unsigned result = PlusInf;
     for (unsigned int i = 0; i < X.size(); ++i)
     {
         Point point = { X[i],Y[i] };
@@ -268,7 +268,7 @@ void test(string fileName)
     ifstream inFile(fileName);
     string str;
     getline(inFile, str);
-    int expected = atoi(str.c_str());
+    unsigned expected = static_cast<unsigned>(atoi(str.c_str()));
     vector<int> X;
     vector<int> Y;
     while (getline(inFile, str))
