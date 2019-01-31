@@ -20,5 +20,6 @@ matrix:
           script:
             - gcc -v && g++ -v && cmake --version
             - cd rubidium2018/build/gnu
-            - sh build.sh
+            - cmake ../..
+            - make
             - ../../bin/rubidium
