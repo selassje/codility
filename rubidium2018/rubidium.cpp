@@ -10,6 +10,9 @@
 #include <cmath>
 #include <algorithm>
 
+#include "gtest/gtest.h"
+
+
 using namespace std;
 
 constexpr int PlusInf = numeric_limits<int>::max();
@@ -263,7 +266,7 @@ unsigned solution(vector<int> &X, vector<int> &Y)
     return result;
 }
 
-void test(string fileName)
+auto getInputAndExpected(string fileName)
 {
     ifstream inFile(fileName);
     string str;
@@ -279,21 +282,45 @@ void test(string fileName)
         X.push_back(x);
         Y.push_back(y);
     }
-    auto result = solution(X, Y);
-
-    if (result != expected)
-    {
-        cout << "Test " << fileName << " failed Ans: " << result << " expected " << expected << endl;
-    }
+    return make_tuple(expected, X, Y);
 }
 
 
-int main()
+TEST(rubidium,test_1)
 {
-    test("../test_cases/tc1.txt");
-    test("../test_cases/tc2.txt");
-    test("../test_cases/tc4.txt");
-    return 0;
+    unsigned expected;
+    vector<int> X;
+    vector<int> Y;
+    tie(expected,X,Y) = getInputAndExpected("../../test_cases/tc1.txt");
+    auto result = solution(X, Y);
+    EXPECT_EQ(expected, result);
+}
+
+TEST(rubidium,test_2)
+{
+    unsigned expected;
+    vector<int> X;
+    vector<int> Y;
+    tie(expected,X,Y) = getInputAndExpected("../../test_cases/tc2.txt");
+    auto result = solution(X, Y);
+    EXPECT_EQ(expected, result);
+}
+
+TEST(rubidium,test_4)
+{
+    unsigned expected;
+    vector<int> X;
+    vector<int> Y;
+    tie(expected,X,Y) = getInputAndExpected("../../test_cases/tc4.txt");
+    auto result = solution(X, Y);
+    EXPECT_EQ(expected, result);
+}
+
+
+int main(int argc, char *argv[])
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }
 
 
