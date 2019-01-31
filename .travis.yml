@@ -15,7 +15,6 @@ addons:
             - gcc-6
             - g++-6
             - cmake
-            - conan
     coverity_scan:
 
         project:
