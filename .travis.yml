@@ -23,6 +23,6 @@ matrix:
             - gcc -v && g++ -v && cmake --version
             - cd rubidium2018/build/gnu
             - cmake ../..
-            - make
+            - cmake --build .
             - cd ../../bin
             - ./rubidium
