@@ -1,3 +1,0 @@
-F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/rubidium.dir
-F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/edit_cache.dir
-F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/rebuild_cache.dir
