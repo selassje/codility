@@ -3,7 +3,7 @@ env:
     - secure: "token"
     
 install:
-    - pip install conan
+    - pip install --user conan
 
 dist: trusty
 sudo: true
