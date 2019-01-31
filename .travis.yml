@@ -3,7 +3,6 @@ env:
     - secure: "token"
     
 install:
-    - pip install --upgrade pip
     - pip install conan
 
 dist: trusty
@@ -39,7 +38,6 @@ matrix:
             
         - language: cpp
           compiler: gcc
-          python: 3.6
           script:
             - cd rubidium2018/build/gnu
             - bash  build.sh
