@@ -19,6 +19,6 @@ matrix:
           compiler: gcc
           script:
             - cd rubidium2018/build/gnu
-            - sh build.sh
+            - bash  build.sh
             - cd ../../bin
             - ./rubidium
