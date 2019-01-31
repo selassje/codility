@@ -18,11 +18,7 @@ matrix:
         - language: cpp
           compiler: gcc
           script:
-            - export CC=/usr/bin/gcc-6
-            - export CXX=/usr/bin/g++-6
-            - gcc -v && g++ -v && cmake --version
             - cd rubidium2018/build/gnu
-            - cmake ../..
-            - cmake --build .
+            - csh build.sh
             - cd ../../bin
             - ./rubidium

@@ -1,5 +1,5 @@
 #!/bin/bash
-#export CC=/usr/bin/gcc
-#export CXX=/usr/bin/g++
-cmake "../../"
-make
+export CC=/usr/bin/gcc-6
+export CXX=/usr/bin/g++-6
+cmake ../..
+cmake --build .
