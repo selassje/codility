@@ -1,4 +1,3 @@
-export CC=/usr/bin/gcc-6
-export CXX=/usr/bin/g++-6
+echo "asdad"
 cmake ../..
 cmake --build .
