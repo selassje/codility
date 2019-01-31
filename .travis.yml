@@ -24,4 +24,5 @@ matrix:
             - cd rubidium2018/build/gnu
             - cmake ../..
             - make
-            - ../../bin/rubidium
+            - cd ../../bin
+            - ./rubidium
