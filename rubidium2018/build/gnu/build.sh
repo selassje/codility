@@ -1,3 +1,3 @@
-echo "asdad"
+echo "asadad"
 cmake "../.."
 cmake --build .
