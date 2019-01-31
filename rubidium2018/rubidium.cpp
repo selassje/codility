@@ -290,9 +290,9 @@ void test(string fileName)
 
 int main()
 {
-    test("../test_cases/tc1.txt");
-    test("../test_cases/tc2.txt");
-    test("../test_cases/tc4.txt");
+    //test("../test_cases/tc1.txt");
+    //test("../test_cases/tc2.txt");
+    //test("../test_cases/tc4.txt");
     return 0;
 }
 
