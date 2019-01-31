@@ -1,3 +1,8 @@
+env:
+  global:
+    - secure: "token"
+
+
 dist: trusty
 sudo: true
 addons:
@@ -8,6 +13,20 @@ addons:
             - gcc-6
             - g++-6
             - cmake
+    coverity_scan:
+
+        project:
+            name: selassje/codility
+            version: 1.0
+            description: codility
+
+        notification_email: przemkoz85@gmail.com
+
+        build_command_prepend: cd rubidium2018/build/gnu
+
+        build_command: bash build.sh  
+
+        branch_pattern: coverity_scan
 matrix:
     include:
         - language: python
