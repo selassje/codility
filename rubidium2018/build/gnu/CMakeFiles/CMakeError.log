@@ -1,0 +1,330 @@
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14242 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_94753/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94753.dir/build.make CMakeFiles/cmTC_94753.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94753.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14242   /w14242 -o CMakeFiles/cmTC_94753.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14242: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_94753.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_94753/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14254 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_75fc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75fc4.dir/build.make CMakeFiles/cmTC_75fc4.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75fc4.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14254   /w14254 -o CMakeFiles/cmTC_75fc4.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14254: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_75fc4.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_75fc4/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14263 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_dac28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dac28.dir/build.make CMakeFiles/cmTC_dac28.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dac28.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14263   /w14263 -o CMakeFiles/cmTC_dac28.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14263: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_dac28.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_dac28/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14265 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_1b608/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b608.dir/build.make CMakeFiles/cmTC_1b608.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b608.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14265   /w14265 -o CMakeFiles/cmTC_1b608.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14265: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_1b608.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_1b608/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14287 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_0d57e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d57e.dir/build.make CMakeFiles/cmTC_0d57e.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d57e.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14287   /w14287 -o CMakeFiles/cmTC_0d57e.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14287: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_0d57e.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_0d57e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/we4289 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_eb729/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb729.dir/build.make CMakeFiles/cmTC_eb729.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb729.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/we4289   /we4289 -o CMakeFiles/cmTC_eb729.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/we4289: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_eb729.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_eb729/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14296 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_b789f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b789f.dir/build.make CMakeFiles/cmTC_b789f.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b789f.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14296   /w14296 -o CMakeFiles/cmTC_b789f.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14296: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_b789f.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_b789f/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14311 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_ecb02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecb02.dir/build.make CMakeFiles/cmTC_ecb02.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ecb02.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14311   /w14311 -o CMakeFiles/cmTC_ecb02.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14311: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_ecb02.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_ecb02/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14545 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_e9a36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9a36.dir/build.make CMakeFiles/cmTC_e9a36.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9a36.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14545   /w14545 -o CMakeFiles/cmTC_e9a36.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14545: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_e9a36.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_e9a36/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14546 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_72e37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72e37.dir/build.make CMakeFiles/cmTC_72e37.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72e37.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14546   /w14546 -o CMakeFiles/cmTC_72e37.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14546: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_72e37.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_72e37/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14547 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_7ddb5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ddb5.dir/build.make CMakeFiles/cmTC_7ddb5.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ddb5.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14547   /w14547 -o CMakeFiles/cmTC_7ddb5.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14547: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_7ddb5.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_7ddb5/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14549 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_c68db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c68db.dir/build.make CMakeFiles/cmTC_c68db.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c68db.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14549   /w14549 -o CMakeFiles/cmTC_c68db.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14549: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_c68db.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_c68db/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14555 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_36f27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36f27.dir/build.make CMakeFiles/cmTC_36f27.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36f27.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14555   /w14555 -o CMakeFiles/cmTC_36f27.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14555: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_36f27.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_36f27/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14619 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_429db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_429db.dir/build.make CMakeFiles/cmTC_429db.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_429db.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14619   /w14619 -o CMakeFiles/cmTC_429db.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14619: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_429db.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_429db/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14640 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_49508/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49508.dir/build.make CMakeFiles/cmTC_49508.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49508.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14640   /w14640 -o CMakeFiles/cmTC_49508.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14640: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_49508.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_49508/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14826 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_e0887/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0887.dir/build.make CMakeFiles/cmTC_e0887.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0887.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14826   /w14826 -o CMakeFiles/cmTC_e0887.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14826: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_e0887.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_e0887/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14905 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_b93e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b93e2.dir/build.make CMakeFiles/cmTC_b93e2.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b93e2.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14905   /w14905 -o CMakeFiles/cmTC_b93e2.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14905: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_b93e2.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_b93e2/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14906 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_5eca1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5eca1.dir/build.make CMakeFiles/cmTC_5eca1.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5eca1.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14906   /w14906 -o CMakeFiles/cmTC_5eca1.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14906: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_5eca1.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_5eca1/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/w14928 failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_74370/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74370.dir/build.make CMakeFiles/cmTC_74370.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74370.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/w14928   /w14928 -o CMakeFiles/cmTC_74370.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/w14928: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_74370.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_74370/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_/EHsc failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_eed86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eed86.dir/build.make CMakeFiles/cmTC_eed86.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eed86.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -DHAS_CXX_FLAG_/EHsc   /EHsc -o CMakeFiles/cmTC_eed86.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: C:/MinGW/msys/1.0/EHsc: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_eed86.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_eed86/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_-Wduplicated-branches failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_eb287/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb287.dir/build.make CMakeFiles/cmTC_eb287.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb287.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -DHAS_CXX_FLAG_-Wduplicated-branches   -Wduplicated-branches -o CMakeFiles/cmTC_eb287.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: unrecognized command line option '-Wduplicated-branches'; did you mean '-Wduplicated-cond'?
+make[1]: *** [CMakeFiles/cmTC_eb287.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_eb287/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX_FLAG_-Wlifetime failed with the following output:
+Change Dir: F:/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/msys/1.0/bin/make.exe" "cmTC_64729/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64729.dir/build.make CMakeFiles/cmTC_64729.dir/build
+make[1]: Entering directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64729.dir/src.cxx.obj
+/C/MinGW/bin/g++.exe    -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wsign-conversion -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wuseless-cast -Wdouble-promotion -DHAS_CXX_FLAG_-Wlifetime   -Wlifetime -o CMakeFiles/cmTC_64729.dir/src.cxx.obj -c /F/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: unrecognized command line option '-Wlifetime'; did you mean '-Wdate-time'?
+make[1]: *** [CMakeFiles/cmTC_64729.dir/src.cxx.obj] Error 1
+make[1]: Leaving directory `/f/Repos/Codility/rubidium2018/build/gnu/CMakeFiles/CMakeTmp'
+make: *** [cmTC_64729/fast] Error 2
+
+Source file was:
+int main() { return 0; }
