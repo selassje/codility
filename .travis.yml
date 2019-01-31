@@ -21,8 +21,6 @@ matrix:
             - export CC=/usr/bin/gcc-6
             - export CXX=/usr/bin/g++-6
             - gcc -v && g++ -v && cmake --version
-            - cd rubidium2018
-            - mkdir build && cd build
-            - cmake ..
-            - make
-            - ../bin/rubidium
+            - cd rubidium2018/build/gnu
+            - ./build.sh
+            - ../../bin/rubidium

@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.5)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin) 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../../bin) 
 
 project (rubidum2018 CXX)
 
@@ -12,16 +12,15 @@ list(APPEND ADD_CXX_FLAGS "/w14826" "/w14905" "/w14906" "/w14928" "/EHsc")
 list(APPEND ADD_CXX_FLAGS "-Wall -Wextra" "-Wshadow" "-Wnon-virtual-dtor" "-pedantic" "-Wold-style-cast" "-Wcast-align" "-Wunused")
 list(APPEND ADD_CXX_FLAGS "-Woverloaded-virtual" "-Wpedantic" "-Wsign-conversion" "-Wmisleading-indentation" "-Wduplicated-cond")
 list(APPEND ADD_CXX_FLAGS "-Wduplicated-branches" "-Wlogical-op" "-Wnull-dereference" "-Wuseless-cast" "-Wdouble-promotion")
-list(APPEND ADD_CXX_FLAGS "-Wformat=2" "-Wlifetime")
+list(APPEND ADD_CXX_FLAGS "-Wlifetime")
 
 include(CheckCXXCompilerFlag)
 foreach(CXX_FLAG ${ADD_CXX_FLAGS})
-    check_cxx_compiler_flag(${CXX_FLAG} HAS_CXX_FLAG)
-    if (HAS_CXX_FLAG)
+    check_cxx_compiler_flag(${CXX_FLAG} HAS_CXX_FLAG_${CXX_FLAG})
+    if (HAS_CXX_FLAG_${CXX_FLAG})
             message("Adding compiler flag ${CXX_FLAG}")
             set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${CXX_FLAG}")
     endif()
-    unset(HAS_CXX_FLAG CACHE)
 endforeach()
 
 
