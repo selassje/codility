@@ -7,3 +7,4 @@ cmake
 [imports]
 bin, *.dll -> ../../bin/Release
 lib, *.a -> ../../bin
+lib, *.so -> ../../bin
