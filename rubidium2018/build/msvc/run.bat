@@ -1,4 +1,4 @@
 call build.bat
-cd ../../bin/Release
+cd ../../bin
 rubidium.exe
-cd ../../build/msvc
+cd ../build/msvc

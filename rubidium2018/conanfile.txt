@@ -5,4 +5,4 @@ gtest/1.7.0@bincrafters/stable
 cmake
 
 [imports]
-bin, *.dll -> ../../bin/Release
+bin, *.dll -> ../../bin
