@@ -2,9 +2,6 @@ env:
   global:
     - secure: "token"
     
-install:
-    - pip install --user conan
-
 dist: trusty
 #sudo: true
 addons:
@@ -38,6 +35,8 @@ matrix:
             
         - language: cpp
           compiler: gcc
+          install:
+            - pip install --user conan
           script:
             - cd rubidium2018/build/gnu
             - bash  build.sh
