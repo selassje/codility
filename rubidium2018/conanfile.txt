@@ -6,4 +6,4 @@ cmake
 
 [imports]
 bin, *.dll -> ../../bin/Release
-bin, *.a -> ../../bin
+lib, *.a -> ../../bin
