@@ -291,7 +291,7 @@ TEST(rubidium,test_1)
     unsigned expected;
     vector<int> X;
     vector<int> Y;
-    tie(expected,X,Y) = getInputAndExpected("../../test_cases/tc1.txt");
+    tie(expected,X,Y) = getInputAndExpected("../test_cases/tc1.txt");
     auto result = solution(X, Y);
     EXPECT_EQ(expected, result);
 }
@@ -301,7 +301,7 @@ TEST(rubidium,test_2)
     unsigned expected;
     vector<int> X;
     vector<int> Y;
-    tie(expected,X,Y) = getInputAndExpected("../../test_cases/tc2.txt");
+    tie(expected,X,Y) = getInputAndExpected("../test_cases/tc2.txt");
     auto result = solution(X, Y);
     EXPECT_EQ(expected, result);
 }
@@ -311,7 +311,7 @@ TEST(rubidium,test_4)
     unsigned expected;
     vector<int> X;
     vector<int> Y;
-    tie(expected,X,Y) = getInputAndExpected("../../test_cases/tc4.txt");
+    tie(expected,X,Y) = getInputAndExpected("../test_cases/tc4.txt");
     auto result = solution(X, Y);
     EXPECT_EQ(expected, result);
 }
