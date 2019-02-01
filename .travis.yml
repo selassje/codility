@@ -6,7 +6,7 @@ install:
     - pip install --user conan
 
 dist: trusty
-sudo: true
+#sudo: true
 addons:
     apt:
         sources:
