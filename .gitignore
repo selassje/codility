@@ -4,3 +4,6 @@
 
 */build/mingw/*
 */build/mingw/!*!.bat
+
+*/build/msys/*
+*/build/msys/!*!.bat
