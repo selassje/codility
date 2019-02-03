@@ -16,6 +16,8 @@ list(APPEND ADD_CXX_FLAGS "-Woverloaded-virtual" "-Wpedantic" "-Wsign-conversion
 list(APPEND ADD_CXX_FLAGS "-Wduplicated-branches" "-Wlogical-op" "-Wnull-dereference" "-Wuseless-cast" "-Wdouble-promotion")
 list(APPEND ADD_CXX_FLAGS "-Wlifetime")
 
+
+
 include(CheckCXXCompilerFlag)
 foreach(CXX_FLAG ${ADD_CXX_FLAGS})
     check_cxx_compiler_flag(${CXX_FLAG} HAS_CXX_FLAG_${CXX_FLAG})
@@ -24,6 +26,20 @@ foreach(CXX_FLAG ${ADD_CXX_FLAGS})
             set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${CXX_FLAG}")
     endif()
 endforeach()
+
+
+
+
+
+if(DEFINED ENV{ENABLE_COVERAGE})
+    if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+        message("Enabling coverage build")
+        add_compile_options(-fprofile-arcs -ftest-coverage -O0)
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fprofile-arcs -ftest-coverage")
+    endif()
+endif()
+
+
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup(NO_OUTPUT_DIRS)
