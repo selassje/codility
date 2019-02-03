@@ -1,6 +1,6 @@
 */bin/*
 */build/msvc/*
-!/build/msvc/*.bat
+!*/build/msvc/*.bat
 
 */build/mingw/*
 !*/build/mingw/*.bat
