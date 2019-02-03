@@ -1,9 +1,9 @@
 */bin/*
 */build/msvc/*
-*/build/msvc/!*!.bat
+!/build/msvc/*.bat
 
 */build/mingw/*
-*/build/mingw/!*!.bat
+!*/build/mingw/*.bat
 
 */build/msys/*
-*/build/msys/!*!.bat
+!*/build/msys/*.bat
