@@ -32,7 +32,7 @@ class Solution {
         final int toRemoveK = uniqueLetters - K;
         if (toRemoveK <  0 ) return -1;
         if (toRemoveK == 0 ) return 0;  
-        int minLen = Integer.MAX_VALUE;;
+        int minLen = Integer.MAX_VALUE;
         for ( Range a : ranges) 
         {         
             for ( Range b : ranges) 
