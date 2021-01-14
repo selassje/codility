@@ -2,6 +2,8 @@ cmake_minimum_required (VERSION 3.5)
 
 project (rubidum2018 CXX)
 
+message("Compiler path ${CMAKE_CXX_COMPILER_ID}")
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../../bin") 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}) 
@@ -28,9 +30,6 @@ foreach(CXX_FLAG ${ADD_CXX_FLAGS})
 endforeach()
 
 
-
-
-
 if(DEFINED ENV{ENABLE_COVERAGE})
     if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
         message("Enabling coverage build")
@@ -38,8 +37,6 @@ if(DEFINED ENV{ENABLE_COVERAGE})
         set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fprofile-arcs -ftest-coverage")
     endif()
 endif()
-
-
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup(NO_OUTPUT_DIRS)
