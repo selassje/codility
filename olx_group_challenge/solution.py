@@ -27,12 +27,10 @@ def solution(juice, capacity):
     def solve_for_juice(j):
         capacity = sorted_glasses[j][1] 
         space = capacity - sorted_glasses[j][0]
-        if partial_sums[-1] <= capacity:
-            return n
-        elif partial_sums[j] == capacity:
+        if partial_sums[j] == capacity:
             return j + 1
         elif partial_sums[j] < capacity:
-            return find_in_partial_sum(j + 1, n - 1, capacity) 
+            return find_in_partial_sum(j, n - 1, capacity) 
         else:
             return find_in_partial_sum(0, j - 1 , space) + 1
                
