@@ -7,10 +7,8 @@ def solution(juice, capacity):
     for i in range(1, n ):
         partial_sums[i] = partial_sums[i - 1] + sorted_glasses[i][0] 
         
-   # print(juice, capacity)
     def find_in_partial_sum(s, e, target) :
         assert(e >= s)
-        
         if partial_sums[s] > target:
             return s
         if partial_sums[e] <= target:
@@ -27,10 +25,8 @@ def solution(juice, capacity):
     
     
     def solve_for_juice(j):
-        juice = sorted_glasses[j][0]
         capacity = sorted_glasses[j][1] 
-        space = capacity - juice
-     
+        space = capacity - sorted_glasses[j][0]
         if partial_sums[-1] <= capacity:
             return n
         elif partial_sums[j] == capacity:
@@ -51,7 +47,6 @@ def solution(juice, capacity):
         juice = sorted_glasses[j][0]
         capacity = sorted_glasses[j][1] 
         space = capacity - juice
-        print("j " + str(j) + " cap " + str(capacity) + " space " + str(space) + " sum " + str(partial_sums[j]))
         if partial_sums[-1] <= capacity:
             return n
         elif partial_sums[j] == capacity:
