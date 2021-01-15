@@ -12,8 +12,7 @@ def solution(juice, capacity):
         if partial_sums[s] > target:
             return s
         if partial_sums[e] <= target:
-            return e + 1
-            
+            return e + 1         
         while e - s != 1:
             mid_index = s + int((e - s) / 2)
             if partial_sums[mid_index] <= target:
@@ -27,32 +26,10 @@ def solution(juice, capacity):
     def solve_for_juice(j):
         capacity = sorted_glasses[j][1] 
         space = capacity - sorted_glasses[j][0]
-        if partial_sums[j] == capacity:
-            return j + 1
-        elif partial_sums[j] < capacity:
+        if partial_sums[j] <= capacity:
             return find_in_partial_sum(j, n - 1, capacity) 
         else:
             return find_in_partial_sum(0, j - 1 , space) + 1
-               
-    max_flavours = 1
-    for j in range(0, n) :
-        max_flavours = max(max_flavours, solve_for_juice(j))
-        
-    return max_flavours
-    
-    
-    def solve_for_juice(j):
-        juice = sorted_glasses[j][0]
-        capacity = sorted_glasses[j][1] 
-        space = capacity - juice
-        if partial_sums[-1] <= capacity:
-            return n
-        elif partial_sums[j] == capacity:
-            return j + 1
-        elif partial_sums[j] < capacity:
-            return find_in_partial_sum(j + 1, n - 1, capacity) 
-        else:
-            return find_in_partial_sum(0, j , space) + 1
                
     max_flavours = 1
     for j in range(0, n) :
